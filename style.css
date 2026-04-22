@@ -1,0 +1,52 @@
+body {
+  font-family: Arial;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.center {
+  margin-top: 100px;
+}
+
+input {
+  font-size: 20px;
+  padding: 10px;
+  width: 300px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+.wrong {
+  color: red;
+  font-weight: bold;
+}
+
+.correct {
+  color: green;
+  font-weight: bold;
+  
+  .level-block {
+  margin-top: 15px;
+  text-align: left;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.word-list {
+  margin-left: 20px;
+  margin-top: 5px;
+  font-size: 14px;
+  line-height: 1.6;
+}
+}

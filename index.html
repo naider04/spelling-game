@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Spelling Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- TOP BAR -->
+<div class="top">
+  <div id="mistakes">Mistakes: none</div>
+</div>
+
+<!-- GAME AREA -->
+<div class="center">
+  <div id="combo">Combo x0</div>
+
+  <input 
+    id="input" 
+    type="text" 
+    placeholder="Type what you hear..."
+    autofocus
+  >
+
+  <button id="playBtn">▶ Play</button>
+</div>
+
+<!-- WORD LIST (ALWAYS VISIBLE) -->
+<div id="listContainer" style="margin-top:30px;">
+
+  <h3>Word Lists</h3>
+
+  <!-- BEGINNER -->
+  <div class="level-block">
+    <label>
+      <input type="checkbox" data-level="beginner" checked>
+      <strong>Beginner</strong>
+    </label>
+    <div class="word-list" id="beginnerWords"></div>
+  </div>
+
+  <!-- INTERMEDIATE -->
+  <div class="level-block">
+    <label>
+      <input type="checkbox" data-level="intermediate" checked>
+      <strong>Intermediate</strong>
+    </label>
+    <div class="word-list" id="intermediateWords"></div>
+  </div>
+
+  <!-- SENIOR -->
+  <div class="level-block">
+    <label>
+      <input type="checkbox" data-level="senior" checked>
+      <strong>Senior</strong>
+    </label>
+    <div class="word-list" id="seniorWords"></div>
+  </div>
+
+  <!-- MASTER -->
+  <div class="level-block">
+    <label>
+      <input type="checkbox" data-level="master" checked>
+      <strong>Master</strong>
+    </label>
+    <div class="word-list" id="masterWords"></div>
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

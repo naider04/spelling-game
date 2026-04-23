@@ -51,8 +51,9 @@ button {
 .level-block label {
   display: flex;
   align-items: center;
-  justify-content: flex-start; /* everything starts from left */
   gap: 10px;
+  width: 100%;              /* 🔥 force same width */
+  box-sizing: border-box;
 }
 
 /* WORD LIST */

@@ -95,4 +95,8 @@ body.dark .level-block {
   border-color: #444;
 }
 
+.level-block span {
+  text-align: right;
+}
+
 

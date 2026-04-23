@@ -137,7 +137,7 @@ function normalize(text) {
 
 // 🔥 update UI
 function updateUI() {
-  comboText.textContent = `Combo x${combo}`;
+  comboText.textContent = `Score x${combo}`;
 
   if (mistakes.length === 0) {
     mistakesText.innerHTML = "Mistakes: none";

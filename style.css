@@ -17,6 +17,9 @@ body {
 #mistakes {
   margin-top: 15px;
 }
+#mistakes {
+  background: yellow;
+}
 
 /* GAME AREA */
 .center {

@@ -130,6 +130,18 @@ body.dark .level-block {
   order: 2; /* checkbox second */
 }
 
+.bottom-strip {
+  width: 100%;
+  margin-top: 40px;
+}
+
+.bottom-strip img {
+  width: 100%;
+  height: 120px;        /* adjust height as you like */
+  object-fit: cover;    /* makes it look like a stripe */
+  display: block;
+}
+
 
 
 

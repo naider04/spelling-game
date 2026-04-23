@@ -142,11 +142,7 @@ body.dark .level-block {
   display: block;
 }
 
-#playBtn {
-  background: yellow !important;
-  color: black !important;
-  border: 5px solid red !important;
-}
+#playBtn { background: yellow; color: black; }
 
 
 

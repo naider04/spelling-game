@@ -103,4 +103,16 @@ body.dark .level-block {
   text-align: left;
 }
 
+.level-block,
+.level-block label,
+.level-block span {
+  text-align: left !important;
+  justify-content: flex-start !important;
+}
+
+.level-block label {
+  display: flex !important;
+  align-items: center !important;
+  gap: 10px !important;
+}
 

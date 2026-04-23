@@ -142,6 +142,11 @@ body.dark .level-block {
   display: block;
 }
 
+#playBtn {
+  background: yellow;
+  color: black;
+}
+
 
 
 

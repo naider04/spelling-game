@@ -126,6 +126,10 @@ body.dark .level-block {
   order: 2; /* checkbox second */
 }
 
+#mistakes {
+  align-self: flex-end;
+  margin-top: 10px;
+}
 
 
 

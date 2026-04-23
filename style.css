@@ -48,11 +48,11 @@ button {
 
 /* LABEL (checkbox + text aligned) */
 .level-block label {
-  display: flex;
+  display: grid;
+  grid-template-columns: 30px 1fr; /* 🔥 fixed checkbox column */
   align-items: center;
-  gap: 10px;
-  width: 100%;              /* 🔥 force same width */
-  box-sizing: border-box;
+  width: 250px;
+  margin: 0 auto;
 }
 
 /* WORD LIST */

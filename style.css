@@ -11,7 +11,11 @@ body {
 .top {
   display: flex;
   justify-content: space-between;
-  padding: 0 20px;
+  align-items: flex-start; /* 🔥 key */
+}
+
+#mistakes {
+  margin-top: 8px;
 }
 
 /* GAME AREA */
@@ -126,15 +130,7 @@ body.dark .level-block {
   order: 2; /* checkbox second */
 }
 
-.top {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start; /* 🔥 key */
-}
 
-#mistakes {
-  margin-top: 8px;
-}
 
 
 

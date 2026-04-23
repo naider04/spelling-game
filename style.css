@@ -40,10 +40,15 @@ button {
 }
 
 /* LEVEL BLOCK */
-.level-block {
-  width: 250px;             /* 🔥 fixed width = perfect alignment */
-  margin: 15px auto;
+#listContainer {
+  width: 250px;
+  margin: 30px auto;
   text-align: left;
+}
+
+.level-block {
+  width: 100%;      /* 🔥 all blocks share SAME width */
+  margin: 10px 0;
 }
 
 /* LABEL (checkbox + text aligned) */

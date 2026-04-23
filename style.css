@@ -118,5 +118,13 @@ body.dark .level-block {
   gap: 10px !important;
 }
 
+.level-block span {
+  order: 1; /* text first */
+}
+
+.level-block input {
+  order: 2; /* checkbox second */
+}
+
 
 

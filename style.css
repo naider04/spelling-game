@@ -73,3 +73,24 @@ button {
   color: green;
   font-weight: bold;
 }
+
+/* DARK MODE */
+body.dark {
+  background: #121212;
+  color: #e0e0e0;
+}
+
+body.dark input {
+  background: #1e1e1e;
+  color: white;
+  border: 1px solid #444;
+}
+
+body.dark button {
+  background: #444;
+  color: white;
+}
+
+body.dark .level-block {
+  border-color: #444;
+}

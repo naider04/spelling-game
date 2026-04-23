@@ -96,5 +96,6 @@ body.dark .level-block {
 }
 
 #mistakes {
-  margin-top: 50px;
+  position: relative;
+  top: 5px;
 }

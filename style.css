@@ -94,3 +94,7 @@ body.dark button {
 body.dark .level-block {
   border-color: #444;
 }
+
+#mistakes {
+  margin-top: 10px;
+}

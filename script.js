@@ -43,6 +43,17 @@ const wordData = {
 const listBtn = document.getElementById("listBtn");
 const listContainer = document.getElementById("listContainer");
 
+const themeBtn = document.getElementById("themeBtn");
+
+themeBtn.addEventListener("click", () => {
+  document.body.classList.toggle("dark");
+
+  if (document.body.classList.contains("dark")) {
+    themeBtn.textContent = "☀️ Light";
+  } else {
+    themeBtn.textContent = "🌙 Dark";
+  }
+});
 
 let activeLevels = {
   beginner: true,

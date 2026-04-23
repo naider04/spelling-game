@@ -54,10 +54,9 @@ button {
 /* LABEL (checkbox + text aligned) */
 .level-block label {
   display: grid;
-  grid-template-columns: 30px 1fr; /* 🔥 fixed checkbox column */
+  grid-template-columns: 30px 1fr;
   align-items: center;
-  width: 250px;
-  margin: 0 auto;
+  width: 100%;   /* 🔥 fill parent */
 }
 
 /* WORD LIST */

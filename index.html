@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Spelling Game</title>
-  <link rel="stylesheet" href="style.css?v=6">
+  <link rel="stylesheet" href="style.css?v=7">
 </head>
 <body>
 
@@ -18,12 +18,15 @@
 <div class="center">
   <div id="combo">Score x0</div>
 
-  <input 
-    id="input" 
-    type="text" 
-    placeholder="Type what you hear..."
-    autofocus
-  >
+<input 
+  id="input" 
+  type="text" 
+  placeholder="Type what you hear..."
+  autocomplete="off"
+  autocorrect="off"
+  autocapitalize="off"
+  spellcheck="false"
+>
 
   <button id="playBtn">▶ Play</button>
 </div>
